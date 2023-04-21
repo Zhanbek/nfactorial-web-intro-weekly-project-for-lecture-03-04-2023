@@ -107,23 +107,31 @@
     */
     
     .main-index {
-        margin: 0;        
+        margin: 0;    
+        padding: 0;    
     }
 
     .description {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        height: 620px;      
+        align-items: center;
+        padding: 32px 0 32px 0;        
+        height: 618px;
     }
 
     .hero-block {
-        display: flex;
+        /* display: flex;
         align-items: center; 
-        justify-content: space-between;
-        height: 420px;
-        padding-left: 80px;
-        padding-right: 80px;        
+        justify-content: space-between; */
+        height: 554px;
+    }
+    
+    .hero {
+        display: block;
+        width: 312px;
+        height: 210px;        
+        background: url(Checker.png);
+        border-radius: 32px;
     }
 
     .info {
@@ -134,11 +142,7 @@
         height: 366px;
     }
 
-    .hero {
-        display: block;
-        width: 619px;
-        height: 420px;    
-    }
+
 
     .invitation {        
         display: flex;
