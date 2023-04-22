@@ -45,7 +45,14 @@
 
 .hero-block {
     outline: 2px solid grey;
-    margin: 0;
+}
+
+.hero-block-info {
+    outline: 2px solid purple;
+}
+
+.info {
+    outline: 2px solid black;
 }
 
 .invitation {

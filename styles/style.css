@@ -120,82 +120,91 @@
     }
 
     .hero-block {
-        /* display: flex;
-        align-items: center; 
-        justify-content: space-between; */
         height: 554px;
     }
     
-    .hero {
+    .hero-image {
         display: block;
         width: 312px;
         height: 210px;        
         background: url(Checker.png);
         border-radius: 32px;
+        margin: 0 0 54px 0;
+    }
+
+    .hero-block-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0px;
+        height: 290px;
+        box-sizing: border-box;
     }
 
     .info {
         display: flex;
         flex-direction: column;
-        margin: 0;
-        width: 495px;
-        height: 366px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 48px 0;
+        padding: 0px;                
+        height: 290px;         
+        box-sizing: border-box;   
     }
 
-
-
     .invitation {        
-        display: flex;
-        flex-wrap: wrap;
+        display: flex;        
         align-items: center;
-        
-        flex-grow: 0;
-
-        margin: 0;
-        margin-bottom: 32px;
-        padding: 0;
-
-        width: 495px;
-        height: 192px;
+        text-align: center;
+        height: 114px;        
         font-family: 'Kanit';
         font-style: normal;
         font-weight: 700;
-        font-size: 54px;
-        line-height: 64px;  
-        color: #000000;      
+        font-size: 32px;
+        line-height: 120%;
+        color: #000000;       
+        margin: 0 0 24px 0;
+        box-sizing: border-box;
     }
 
-    .invitation-description {
-        width: 495px;
-        height: 44px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 22px;
-        color: #000000;      
-        margin: 0;
-        margin-bottom: 48px;      
-    }
-
-    .howItWorks-link {        
+    .invitation-description {        
         display: flex;
         align-items: center;
-        justify-content: center;
-
-        width: 144px;
-        height: 50px;     
+        text-align: center;
+        height: 54px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 18px;    
-                
-        color: #FFFFFF;        
+        line-height: 18px;        
+        color: #000000;      
+    }
+
+    .howItWorks-button {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;        
+        height: 50px;        
         background: #712FFF;
-        border-radius: 100px;
-        margin: 0;
-        padding: 16px 24px;
+        border-radius: 100px;        
+    }
+
+    .howItWorks-button-caption {
+        display: flex;
+        align-items: center;
+        text-align: center;        
+        width: 96px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
     }
 
     .howItWorks-section {
@@ -653,9 +662,11 @@
     .info {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         margin: 0;
-        width: 495px;
-        height: 366px;
+        padding: 0;        
+        height: 290px;      
     }
 
     .hero {
@@ -664,58 +675,56 @@
         height: 420px;    
     }
 
-    .invitation {        
+    .hero-block-invitation {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        
-        flex-grow: 0;
+        margin: 0 0 48px 0;
+        padding: 0px;
+        height: 192px;        
+    }
 
-        margin: 0;
-        margin-bottom: 32px;
-        padding: 0;
-
-        width: 495px;
-        height: 192px;
+    .invitation {                
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 114px;        
         font-family: 'Kanit';
         font-style: normal;
         font-weight: 700;
-        font-size: 54px;
-        line-height: 64px;  
-        color: #000000;      
+        font-size: 32px;
+        line-height: 120%;
+        color: #000000;
+        margin: 0 0 24px 0;
+        padding: 0;
     }
 
     .invitation-description {
-        width: 495px;
-        height: 44px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 22px;
-        color: #000000;      
-        margin: 0;
-        margin-bottom: 48px;      
-    }
-
-    .howItWorks-link {        
         display: flex;
         align-items: center;
-        justify-content: center;
-
-        width: 144px;
-        height: 50px;     
+        text-align: center;
+        height: 54px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 18px;    
-                
-        color: #FFFFFF;        
-        background: #712FFF;
-        border-radius: 100px;
+        line-height: 18px;
+        color: #000000;     
         margin: 0;
+        padding: 0;
+    }
+
+    .howItWorks-link {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 16px 24px;
+        width: 144px;
+        height: 50px;        
+        background: #712FFF;
+        border-radius: 100px;        
     }
 
     .howItWorks-section {
@@ -732,12 +741,24 @@
     .howItWorks-info {
         display: flex;
         flex-direction: column;        
-        justify-content: space-between;    
-        
-        height: 356px;
-       
+        justify-content: space-between;            
+        height: 356px;       
     }
     
+    .howItWorks-button-caption {
+        display: flex;
+        align-items: center;
+        text-align: center;        
+        width: 96px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
     .howItWorks-title-container {
         display: flex;
         justify-content: center;
