@@ -40,7 +40,7 @@
 }
 
 .description {
-    outline: 2px solid blue;
+    outline: 2px dashed red;
 }
 
 .hero-block {
