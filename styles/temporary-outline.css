@@ -1,149 +1,149 @@
 
-.page {
+.page-m {
     outline: 2px solid black;        
 }
 
-.page-header {
+.page-header-m {
     outline: 2px solid red;
 }
 
-.magnifier-link {
+.magnifier-link-m {
     outline: 2px solid blueviolet;
 }
 
-.jumys-tap-link {
+.jumys-tap-link-m {
     outline: 2px solid green;
 }
 
-.page-header-left-links {
+.page-header-left-links-m {
     outline: 2px solid blue;
 }
 
-.navigation-list {
+.navigation-list-m {
     outline: 2px solid orange;
 }
 
-.navigation-item {
+.navigation-item-m {
     outline: 2px solid grey;
 }
 
-.navigation-link {
+.navigation-link-m {
     outline: 2px solid black;
 }
 
-.navigation-button {
+.navigation-button-m {
     outline: 2px solid hotpink;
 }
 
-.main-index {
+.main-index-m {
     outline: 2px solid black;
 }
 
-.description {
+.description-m {
     outline: 2px dashed red;
 }
 
-.hero-block {
+.hero-block-m {
     outline: 2px solid grey;
 }
 
-.hero-block-info {
+.hero-block-info-m {
     outline: 2px solid purple;
 }
 
-.info {
+.info-m {
     outline: 2px solid black;
 }
 
-.invitation {
+.invitation-m {
     outline: 2px solid red;
 }
 
-.invitation-description {
+.invitation-description-m {
     outline: 2px solid green;
 }
 
-.howItWorks-section {
+.howItWorks-section-m {
     outline: 2px solid red;
 }
 
-.howItWorks-info {
+.howItWorks-info-m {
     outline: 2px solid black;
 }
 
-.howItWorks-title {
+.howItWorks-title-m {
     outline: 2px solid green;
 }
 
-.howItWorks-list {
+.howItWorks-list-m {
     outline: 2px solid hotpink;
 }
 
-.howItWorks-item {
+.howItWorks-item-m {
     outline: 2px solid gray;
 }
 
-.find-job {
+.find-job-m {
     outline: 2px solid black;
 }
 
-.find-job-form {
+.find-job-form-m {
     outline: 2px solid brown;
 }
 
-.find-job-title {
+.find-job-title-m {
     outline: 2px solid green;
 }
 
-.find-job-description {
+.find-job-description-m {
     outline: 2px solid fuchsia;
 }
 
-.find-job-input-fields {
+.find-job-input-fields-m {
     outline: 2px solid gray; 
 }
 
-.submission {        
+.submission-m {        
     outline: 2px solid black;
 }
 
-.submission-container {
+.submission-container-m {
     outline: 2px dashed fuchsia;
 }
 
-.upload-CV-form {
+.upload-CV-form-m {
     outline: 2px solid green;
 }
 
-.upload-CV-title {
+.upload-CV-title-m {
     outline: 2px solid blue;
 }
 
-.upload-CV-description {
+.upload-CV-description-m {
     outline: 2px solid orange;
 }
 
-.page-footer {
+.page-footer-m {
     outline: 5px dashed red;
 }
 
-.page-footer-container {
+.page-footer-container-m {
     outline: 2px solid blue;
 }
 
-.social-networks-list {
+.social-networks-list-m {
     outline: 2px solid orange;
 }
 
 
-.social-networks-link {
+.social-networks-link-m {
     outline: 2px solid green;
 }
 
-.credits-container  {
+.credits-container-m {
     outline: 2px solid gray;
 }
 
-.credits {
+.credits-m {
     outline: 2px solid pink;
 }
