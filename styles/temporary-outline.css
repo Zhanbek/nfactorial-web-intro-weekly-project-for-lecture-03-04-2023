@@ -91,6 +91,18 @@
     outline: 2px solid gray;
 }
 
+.number-one-m {
+    outline: 2px solid indianred;
+}
+
+.howItWorks-item-description-m {
+    outline: 2px solid gray;
+}
+
+.howItWorks-item-title-m {
+    outline: 2px solid tomato;
+}
+
 .find-job-m {
     outline: 2px solid black;
 }
