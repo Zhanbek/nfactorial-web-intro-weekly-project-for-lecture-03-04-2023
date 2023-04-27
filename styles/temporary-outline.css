@@ -1,6 +1,6 @@
 
 .page-m {
-    outline: 2px solid black;        
+    outline: 2px dashed black;        
 }
 
 .page-header-m {
@@ -73,6 +73,14 @@
 
 .howItWorks-title-m {
     outline: 2px solid green;
+}
+
+.howItWorks-title-description-m {
+    outline: 2px solid purple;
+}
+
+.howItWorks-title-question-m {
+    outline: 2px solid mediumblue;
 }
 
 .howItWorks-list-m {
