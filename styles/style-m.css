@@ -225,6 +225,8 @@ body {
         height: 686px;        
         background: #E1DEE7;
         border-radius: 32px;
+        margin: 0;
+        padding: 54px 24px;
     }
     
     .howItWorks-title-m {
@@ -460,9 +462,14 @@ body {
     }
 
     .page-footer-m {
-        height: 172px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 460px;
         margin: 0;
-        padding: 32px 80px;
+        padding: 32px 24px;
+        background: #FFFFFF;
+        border-radius: 32px 32px 0px 0px;
     }
 
     .page-footer-container-m {
