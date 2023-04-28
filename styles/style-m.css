@@ -61,11 +61,10 @@ body {
     } 
 
     .navigation-list-m {
-        display: block;
         margin: 0;
         padding: 0;
-        list-style-type: none;
-        height: 38px;        
+        width: 111px;
+        height: 226px;       
     }
 
     .navigation-item-m {
