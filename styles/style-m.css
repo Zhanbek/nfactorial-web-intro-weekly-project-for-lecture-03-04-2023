@@ -224,6 +224,7 @@ body {
         border-radius: 32px;     
         margin: 0;
         padding: 54px 0 54px 0;   
+        box-sizing: border-box;
     }
     
     .howItWorks-title-m {        
