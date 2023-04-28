@@ -366,6 +366,7 @@ body {
         font-weight: 700;
         font-size: 24px;
         line-height: 120%;
+        text-align: center;
         color: #000000;
         margin: 0 0 32px 0;
         padding: auto auto;
@@ -380,15 +381,20 @@ body {
         font-size: 14px;
         line-height: 18px;        
         color: #000000;
+        text-align: center;
         margin: 0 0 32px 0;
         padding: 0;
     }
 
     .find-job-input-fields-m {        
-        width: 312px;
-        height: 132px;        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         margin: 0;
         padding: 0;
+        width: 312px;
+        height: 132px;
     }
 
     .find-job-key-words-m {
@@ -400,6 +406,14 @@ body {
         border-radius: 12px;
         margin: 0 0 32px 0;
         padding: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        /* color: #000000;
+        opacity: 0.2; */
+        text-align: center;        
     }
 
     .find-job-button-m {
