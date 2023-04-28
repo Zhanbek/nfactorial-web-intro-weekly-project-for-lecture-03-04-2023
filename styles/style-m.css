@@ -16,14 +16,6 @@ body {
 
 @media (max-width: 360px) {
     
-
-    .page-m {
-        display: block;
-        margin: 12px 0;  
-        padding: 0;
-        box-sizing: border-box;   
-    }
-
     /* 
     header  
     */
@@ -32,9 +24,9 @@ body {
         display: flex;       
         justify-content: space-between;
         align-items: center;      
-        height: 38px;   
+        height: 62px;
         margin: 0;
-        padding: 0;  
+        padding: 12px 24px;
         box-sizing: border-box;            
     }
 
@@ -113,9 +105,8 @@ body {
     }
 
     .description-m {
-        margin: 32px 0 32px 0;
-        padding: 0;                
-        box-sizing: border-box;
+        margin: 0;
+        padding: 32px 24px;                
     }
     
     .hero-image-m {
@@ -223,7 +214,7 @@ body {
         background: #E1DEE7;
         border-radius: 32px;     
         margin: 0;
-        padding: 54px 0 54px 0;   
+        padding: 54px 24px 54px 24px;   
         box-sizing: border-box;
     }
     
