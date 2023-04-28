@@ -276,7 +276,8 @@ body {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 0px;      
+        margin: 0;
+        padding: 0;      
         width: 312px;                 
         height: 440px;
     }
@@ -304,7 +305,7 @@ body {
     .number-m:not(:last-child) {
         width: 42px;
         height: 42px;
-        margin: 0 0 24px 0;
+        margin-bottom: 24px;
     }
     
     .howItWorks-item-description-m {
