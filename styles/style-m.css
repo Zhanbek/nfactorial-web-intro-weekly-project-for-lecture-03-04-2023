@@ -423,12 +423,11 @@ body {
     }
 
     .submission-m {     
-        display: flex;
-        flex-direction: column;
-        justify-content: center;       
-        height: 548px;       
+        width: 360px;
+        height: 663px;
         margin: 0;
-        padding: 0; 
+        padding: 64px 24px;     
+        box-sizing: border-box;           
     }
 
     .submission-container-m {
@@ -439,55 +438,57 @@ body {
 
     .upload-CV-image-m {
         display: block;
-        width: 619px;
-        height: 420px;        
-        margin: 0 128px 0 0;        
+        width: 312px;
+        height: 210px;                
+        background: #FFFFFF;
+        border-radius: 24px;
+        margin: 0 0 128px 0;
+        padding: 0;                  
     }
 
     .upload-CV-form-m {
-        margin: 103px 38px 103px 0;
-        height: 214px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 312px;
+        height: 197px;                
     }
 
     .upload-CV-title-m {
-        width: 391px;
-        height: 56px;
+        width: 174px;
+        height: 29px;        
         font-family: 'Kanit';
         font-style: normal;
         font-weight: 600;
-        font-size: 54px;
-        line-height: 56px;
-        color: #000000;
+        font-size: 24px;
+        line-height: 120%;        
+        color: #000000;        
         margin: 0;
-        margin-bottom: 32px;
+        padding: 0;
     }
 
     .upload-CV-description-m {
-        width: 495px;
-        height: 44px;    
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 22px;        
-        color: #000000;      
-        margin: 0;
-        margin-bottom: 32px;  
-    }
-
-    .button-upload-CV-m {
-        width: 114px;
-        height: 50px;
-        background-color: #712FFF;
-        border-radius: 100px; 
-        margin: 0;
-        padding: 16px 24px 16px 16px;
+        width: 312px;
+        height: 54px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 18px;        
-        color: #FFFFFF;        
+        line-height: 18px;
+        color: #000000;
+        margin: 0;
+        padding: 0;        
+    }
+
+    .button-upload-CV-m {
+        display: block;
+        padding: 16px 24px 16px 16px;
+        width: 114px;
+        height: 50px;        
+        background: #712FFF;
+        border-radius: 100px;           
     }
 
     .page-footer-m {
