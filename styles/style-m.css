@@ -495,48 +495,76 @@ body {
     }
 
     .navigation-list-m {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
         margin: 0;
         padding: 0;    
         width: 111px;
         height: 226px;
+        list-style-type: none;
+        box-sizing: border-box;
     }
     
     .navigation-item-m {
         display: block;
         margin: 0 0 16px 0;
+        padding: 10px 12px;
         width: 64px;
         height: 38px;        
+        box-sizing: border-box; 
     }
 
-    .social-networks-item-m {
+    .about-us {
+        width: 85px;
+        height: 38px;
+    }
+
+    .how-it-works {
+        width: 111px;
+        height: 38px;
+    }
+
+    .social-networks-item-m {        
         width: 48px;
         height: 24px;
     }
 
-
     .home-link {
-        margin: 0;
-        padding: 10px 12px;
-        width: 64px;
-        height: 38px;        
-        border-radius: 100px;
+        display: block;
+        width: 40px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        text-align: center;        
+        color: #081E34;    
+        box-sizing: border-box;     
     }
 
     .about-us-link {
-        padding: 10px 12px;
-        width: 85px;
-        height: 38px;        
-        border-radius: 100px;
+        display: block;
+        width: 61px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #081E34;
+        box-sizing: border-box; 
     }
 
-    .how-it-works {
-        padding: 10px 12px;
-        width: 111px;
-        height: 38px;        
-        border-radius: 100px;
+    .how-it-works-link {
+        width: 87px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        text-align: center;        
+        color: #081E34;
     }
 
     .twitter-m {
