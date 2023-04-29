@@ -151,10 +151,17 @@
     outline: 2px solid blue;
 }
 
+.navigation-link-m {
+    outline: 2px solid pink;
+}
+
 .social-networks-list-m {
     outline: 2px solid orange;
 }
 
+.social-networks-item-m {
+    outline: 2px solid black;
+}
 
 .social-networks-link-m {
     outline: 2px solid green;

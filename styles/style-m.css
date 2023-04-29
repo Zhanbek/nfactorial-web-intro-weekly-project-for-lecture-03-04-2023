@@ -523,8 +523,36 @@ body {
     }
 
     .social-networks-item-m {        
+        display: block;        
+        padding: 0px 12px;
         width: 48px;
+        height: 24px;   
+        box-sizing: border-box;  
+    }
+
+    .twitter-item-m {
+        margin: 0 0 16px 0;
+    }
+
+    .instagram-item-m {
+        margin: 0;
+    }
+
+    .social-networks-link-m {
+        display: block;
+        width: 24px;
         height: 24px;
+        box-sizing: border-box;  
+    }
+
+    .twitter-link {
+        background-image: url("../images/icons/Twitter.svg");
+        background-repeat: no-repeat;
+    }
+
+    .instagram-link {
+        background-image: url("../images/icons/Instagram.svg");
+        background-repeat: no-repeat;
     }
 
     .home-link {
